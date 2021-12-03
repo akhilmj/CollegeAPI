@@ -37,7 +37,7 @@ namespace CollegeAPI.Controllers
             return "value";
         }
 
-        // POST api/<LoginController>HttpPost]
+        // POST api/<LoginController>HttpPost] cg
         [HttpPost]
         [Route("Register")]
         public async Task<object> RegisterUser([FromBody] Register user)
