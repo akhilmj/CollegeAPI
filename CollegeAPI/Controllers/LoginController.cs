@@ -23,7 +23,7 @@ namespace CollegeAPI.Controllers
             this._signInManager = signInManager;
         }
 
-        // GET: api/<LoginController>
+        // GET: api/<LoginController> bjhghgg
         [HttpGet]
         public IEnumerable<string> Get()
         {
